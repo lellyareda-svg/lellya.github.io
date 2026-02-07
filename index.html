@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body style="text-align:center; margin-top:100px; font-family:Arial;">
+
+<h2>🔒 موقعي الخاص</h2>
+
+<input id="p" type="password" placeholder="الباسورد">
+<br><br>
+<button onclick="go()">دخول</button>
+
+<script>
+function go() {
+  if (document.getElementById("p").value === "1234") {
+    window.location = "diary.html";
+  } else {
+    alert("باسورد غلط");
+  }
+}
+</script>
+
+</body>
+</html>
+
